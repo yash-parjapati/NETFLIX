@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            /* background-color: #f4f4f4; */
+        }
+
+        nav {
+            width: 100%;
+            background-color: rgb(111, 111, 234);
+            text-align: left;
+            font-weight:bolder ;
+            padding: 10px;
+            color: white;
+
+        }
+
+        .navbar h1  {
+            text-align: right;
+            text-decoration: none;
+            /* justify-content: center; */
+            padding: 10px;
+            align-items: right;
+            justify-content: right;
+            /* font-size:30px  */
+        }
+
+        .navbarr p {
+            display: flex;
+            display: inline;
+            text-align: right;
+
+
+        }
+
+        section {
+            height: 70vh;
+            width: 100%;
+            background-image: url(back.jpg);
+            background-repeat: no-repeat;
+            /* background-position: center; */
+            background-size: cover;
+            /* background-position: center; */
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+            color: white;
+            padding: 20px;
+           
+        }
+        
+
+        section button {
+            background-color: rgb(255, 42, 0);
+            color: white;
+            padding: 10px;
+            /* margin: 10px; */
+            font-weight: bold;
+            border-radius: 10px;
+            border-style: none;
+            font-size: 20px;
+            transition: background-color 0.3s ease;
+        }
+        section button:hover{
+            background-color: #d64b2a;
+        }
+
+        section h1 {
+            text-align: center;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: 900;
+            font-family: Arial,  sans-serif;
+        }
+
+        section h4 {
+            text-align: center;
+            padding: 10px;
+            font-size: 13px
+        }
+
+        .box {
+            width: 300px;
+            height: 200px;
+            background-color: rgba(0, 0, 0, 0.5);
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        .data {
+            padding: 10px;
+            margin: 12px;
+        }
+        .service  {
+            backgroundcolor: #fff;
+            transition: background-color 0.3s ease;
+        }
+        .service li:hover {
+            background-color: #007bff;
+            cursor: pointer;
+        }
+
+        .service h1 {
+            padding: 10px 49px;
+            color: #007bff;
+            margin: 15px;
+            font-weight: bold;
+            /* text-align: left; */
+        }
+
+        .service h4 {
+            padding: 0 71px;
+            justify-content: left;
+            /* text-align: left; */
+        }
+
+        .service ul {
+            padding: 0 80px;
+            margin: 0 40px;
+            text-decoration: none;
+
+        }
+
+        .AboutUs {
+            transition: background-color 0.3s ease;
+            background-color: rgb(244, 238, 231);
+
+        }
+
+        .AboutUs:hover {
+            background-color: rgb(196, 189, 189);
+        }
+
+
+        .AboutUs h1 {
+            padding: 10px 49px;
+            margin: 15px;
+            font-weight: bold;
+            color: green;
+        }
+
+        .AboutUs h4 {
+            padding: 0 71px;
+            text-align: left;
+        }
+
+        .Contect h1 {
+            padding: 10px 49px;
+            margin: 15px;
+            font-weight: bold;
+            color: rgb(205, 108, 124);
+        }
+
+        .Contect{
+            transition: background-color 0.3s ease;
+        }
+        .Contect:hover {
+            background-color: rgb(196, 189, 189);
+        }
+
+        .data h4 {
+            padding: 0 71px;
+            text-align: left;
+        }
+
+        footer h4 {
+            background-color: rgb(111, 111, 234);
+            text-align: center;
+            padding: 20px;
+            justify-content: center;
+        }
+
+        .navbar {
+            max-width: 100%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbarr ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .navbarr ul li {
+            margin-right: 2px;
+        }
+
+        .navbarr ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: white;
+            padding: 10px;
+        }
+        @media screen and (max-width:800px){
+            .service,.AboutUs,.Contect{
+                text-align: center;
+            }
+            .navbar ul{
+                list-style-type: none;
+                padding: 0%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Our Business Name</h1>
+            <div class="navbarr">
+                <nav>
+                    <ul>
+                        <li><a href="#Services">Services</a></li>
+                        <li><a href="#About Us">About Us</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="box">
+            <h1>Welcome to Our Business</h1>
+            <h4>Your one-stop solution for all your needs.</h4>
+            <button>Git in Touch</button>
+        </div>
+    </section>
+
+    <main class="data">
+        <div class="service">
+            <h1>Our Services</h1>
+            <h4>We offer a wide range of services to help your business grow:</h4>
+            <ul type="circle">
+                <li>Consulting Services</li>
+                <li>Professional Training</li>
+                <li>Marketing and Advertising Solutions</li>
+            </ul>
+        </div>
+        <div class="AboutUs">
+            <h1>About Us</h1>
+            <h4>We are a dedicated team with over 10 years of experience in business development and management. Our
+                mission is to provide high-quality services tailored to each client's unique needs.</h4>
+        </div>
+
+        <div class="Contect ">
+            <h1>Contact Us</h1>
+            <h4>Phone: (123) 456-7890</h4>
+            <h4>Email: contact@ourbusiness.com</h4>
+        </div>
+
+    </main>
+
+    <footer>
+        <h4>© 2023 Small Business. All rights reserved.</h4>
+    </footer>
+</body>
+
+</html>

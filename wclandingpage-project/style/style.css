@@ -1,0 +1,346 @@
+* {
+    font-family: "Inter", serif;
+}
+
+.whatsappbtn {
+    border: 1px solid #27AE60;
+    font-size: 16px;
+    color: #27AE60;
+}
+
+.whatsappbtn i {
+    color: #27AE60;
+}
+
+.whatsappbtn:hover {
+    border: 1px solid #27AE60;
+}
+
+.call {
+    font-size: 16px;
+    background: linear-gradient(to right,
+            #0ACEFE, #2699FB);
+    border: 1px solid #0ACEFE;
+    border-radius: 8px;
+    color: white;
+}
+
+.banner-contant h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+
+.banner-contant h1 span {
+    color: #2699FB;
+    background: url("/images/underline.png") no-repeat bottom;
+}
+
+.banner-contant p {
+    font-size: 22px;
+}
+
+.banner-contant ul {
+    list-style: none;
+}
+
+.banner-contant ul li {
+    font-size: 22px;
+}
+
+.banner-contant ul li i {
+    color: #2699FB;
+
+}
+
+.banner-contant-btn button {
+    width: 50%;
+    padding: 20px 0px;
+    border-radius: 7px;
+    border-style: none;
+    font-weight: 700;
+    line-height: 28px;
+    border: 1px solid gray
+}
+
+.demo-btn {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    font-size: 20px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    /* border-style: none; */
+    font-weight: 700;
+    line-height: 28px;
+    border-style: none;
+
+}
+
+.Download-btn i {
+    padding: 6px;
+
+}
+
+.banner-form {
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.banner-form h3 {
+    font-size: 18px;
+    font-weight: 800;
+    color: #101828;
+}
+
+.form-btn {
+    font-weight: 500;
+    font-size: 16px;
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    border-radius: 12px;
+    border: 1px;
+    color: white;
+    width: 100%;
+    height: 44px;
+}
+
+.col h3 {
+    color: #2699FB;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.Highlights-c {
+    background-color: #F7FAFF;
+}
+
+
+.heilight-section h1 {
+    font-weight: 700;
+    font-size: 35px;
+    /* padding: 10px px; */
+    color: #0A2134;
+}
+
+.heilight-section p {
+    font-size: 18px;
+}
+
+.heilight-Items h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.heilight-Items h4 {
+
+    font-size: 15px;
+}
+
+.heilight-section button {
+    background: linear-gradient(to right, #0ACEFE,
+            #2699FB);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 1px;
+    padding: 16px 48px 16px 48px;
+    color: white;
+
+}
+
+.tabdata ul li {
+    list-style: none;
+}
+
+.top-c h3 {
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 20px;
+    color: black;
+
+}
+
+.top-c span i {
+    background-color: #2699FB;
+    border: 2px;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: start;
+}
+
+.top-c p {
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.top-c {
+    border-radius: 8px;
+    border: 1px;
+}
+
+.FAQ-BOX {
+    background-color: #F7FAFF;
+}
+
+.get-cirtificate {
+    background-color: #F7FAFF;
+}
+
+.Certification-box {
+    border-radius: 8px;
+
+}
+
+.Certification-box h4 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.Certification-box p {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.car-btn {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    font-size: 20px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    /* border-style: none; */
+    font-weight: 700;
+    line-height: 28px;
+    border-style: none;
+}
+
+.nav-hadding h1 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.nav-hadding p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.tab-content ul li {
+    list-style: none;
+}
+
+.tab-content i {
+    padding: 5px;
+    color: #2699FB;
+}
+
+.nav-tab a {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.nav-button {
+    background: linear-gradient(to right, #0ACEFE, #2699FB);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 10px;
+    border-style: none;
+    box-shadow: #2699FB;
+    color: white;
+}
+
+.why-learn-bg {
+    background-color: #F7FAFF;
+}
+
+.why-learn h1 {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.why-learn p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.why-learn-box h3 {
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+
+}
+
+.why-learn-box p {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.why-learn-box {
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.out-stu h1 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.out-stu p {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.out-stu-box {
+    border-radius: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+
+
+
+*/ .profile-info .name {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.background {
+    background-image: url("/images/b-g.png");
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 10px;
+    position: relative;
+    /* position: fixed; */
+    /* position: static; */
+
+}
+
+.text-data h1 {
+    font-weight: 700;
+    font-size: 44px;
+}
+
+.text-data p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.our-stu-btn {
+    border-style: none;
+    border-radius: 10px;
+    font: bold;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.footer-end {
+    background-color: #0A2540;
+    color: white;
+}

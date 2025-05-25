@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            /* background-color: rgb(185, 139, 88); */
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            height: 300px;
+            width: 100%;
+            /* width: 150px; */
+            background-color: red;
+            background-image:url(background.png);
+        }
+
+        .container {
+            color: white;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .container h1 {
+            padding: 26px;
+            font-size: 58px;
+            text-align: center;
+
+        }
+
+          button {
+            background-color: rgb(42, 140, 205);
+            padding: 10px 20px;
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: bottom center;
+            transition: background-color 0.5s;
+            margin: 50px;
+            border: none;
+            color: white;
+        }
+        button:hover{
+            background-color: #0056b3;
+        }
+
+        section {
+            display: flex;
+            justify-content: center;
+            /* text-align: center; */
+            /* align-content: center; */
+            padding: 20px;
+            /* height:; */
+            /* margin: 10px; */
+        }
+
+        .box {
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            height: 100px;
+            width: 200px;
+            text-align: center;
+
+        }
+        .box h1 p{
+            padding: 20px;
+            margin: 30px;
+        }
+
+        .box:hover {
+            /* transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); */
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        .footer{
+            background-color: black;
+            color: white;
+            padding: 20px;
+            width: 100%;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="container">
+            <h1>
+                Welcome to our service</h1>
+            <p>Discover the future of online experience..</p>
+            <button>Learn More</button>
+        </nav>
+    </header>
+    <section class="boxs">
+        <div class="box">
+            <h2>Feature One</h2>
+            <p>Description of Feature One.</p>
+        </div>
+        <div class="box">
+            <h2>Feature Two</h2>
+            <p>Description of Feature One.</p>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            © 2023 Dynamic Landing Page. All rights reserved.
+        </div>
+    </section>
+</body>
+
+</html>

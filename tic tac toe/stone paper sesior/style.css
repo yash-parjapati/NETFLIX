@@ -1,0 +1,49 @@
+*{
+    background-color: aqua;
+}
+.header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-size: 50px;
+    justify-content: center;
+    text-align: center;
+}
+.images {
+    text-align: center;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    gap: 20px;
+    border: 50px;
+}
+
+
+
+.image:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    background-color: darkslategray;
+}
+.score-bored  {
+    text-align: center;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+    font-weight: bold;
+}
+#user-score,#computer-score{
+    font-size: 4rem;
+}
+.massage-container{
+    text-align: center;
+    font-size: 40px;
+    color: white; 
+}
+#msg{
+    background-color: black;
+    display: inline;
+    padding: 10px;
+}

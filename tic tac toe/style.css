@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: aqua;
+    justify-content: center;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    
+    border-radius: 1rem;
+    border: none;
+    font-size: 8vmin;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+#reset-btn button{
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+}
+#massage{
+    font-size: 60px;
+}
+#new-btn button{
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+    border-style: none;
+    background-color: white;
+}
+
+.hide{
+    display: none;
+}
